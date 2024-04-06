@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+.inter-font {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "slnt" 0;
+  }
+body, .education, .work-experience, .skills {
+    font-family: Inter, sans-serif;
+    background-color: #000;
+    color: #fff
+}
+
+
+.container {
+    padding: 0px;
+    margin: 0px;
+}
+
+.avatar  {
+    display: block;
+    width: 360px;
+    height: 360px;
+    padding-top: 10px;
+    padding-left: 75px;
+
+}
+
+@media (max-width: 500px) {
+    .avatar {
+        width: 100%; 
+        height: auto;
+        padding-left: 0px;
+    }
+}
+
+
+
+
+
+.icns{
+    display: inline-block;
+    padding-top: 15px;
+    padding-left: 120px;
+}
+@media (max-width: 500px) {
+    .icns{
+        display: inline-block;
+        padding-top: 20px;
+        padding-left: 20px;
+
+    }
+    
+}
+a {
+    color: #2EEBAA;
+    text-decoration: none;
+    transition: all .2s;
+}
+
+.icns-item, .icns-wa {
+    padding-left: 25px;
+    height: 32px;
+}
+
+@media (max-width: 500px) {
+    .icns-item, .icns-wa {
+        padding-left: 50px;
+    }
+    
+}
+
+.main-cnt {
+    margin-right: 200px;
+    margin-top: -440px;
+    margin-left: 500px
+}
+@media (max-width: 500px) {
+    .main-cnt{
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 100px;
+    }
+}
+
+.main-cnt h1, .education h3, .work-experience h3, .footer h2, .skills h2 {
+    color: #2EEBAA;
+}
+.main-cnt p, .education p, .work-experience p {
+    color: #999999;
+}
+.navbars {
+    display: flex; /* Используем Flexbox для выравнивания навигационных панелей в ряд */
+    justify-content: space-between; /* Равномерное распределение между элементами */
+}
+.navbar ul {
+    list-style: none; /* Убираем маркеры списка */
+    padding: 0; /* Убираем отступы */
+    display: flex; /* Делаем элементы списка горизонтальными */
+    align-items: center; /* Выравнивание элементов по центру по вертикали */
+}
+
+.navbar ul li {
+    margin-right: 10px; /* Отступ справа для каждого пункта меню */
+}
+
+.navbar ul li:last-child {
+    margin-right: 0; /* Убираем отступ для последнего пункта */
+}
+
+.navbar a {
+    text-decoration: none; /* Убираем подчёркивание у ссылок */
+    color: white; /* Цвет текста ссылок */
+    padding: 10px 1px; /* Отступы вокруг текста ссылок */
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+}
+.navbar a:hover{
+    opacity: 7;
+    color:#2EEBAA ;
+}
+
+.education-item {
+    padding-top: 10px;
+}
+.work-item{
+    padding-top: 10px;
+}
+.footer {
+    padding-top: 100px;
+
+}
+
+
+.digital-skills, .digital-skills li {
+    padding-top: 25px;
+
+}
+.digital-skills li:hover{
+    opacity: 7;
+    color: #2EEBAA;
+}
+
+input {
+    margin-bottom: 10px;
+padding-bottom: 20px;
+width: 215px; 
+height: 15px; 
+border: 2px solid #4CAF50;
+border-radius: 5px; 
+padding: 10px; 
+resize: none; 
+outline: none; 
+
+}
+.name-item{
+    padding-bottom: 10px;
+}
+textarea {
+    width: 300px; 
+    height: 150px; 
+    border: 2px solid #4CAF50; 
+    border-radius: 5px; 
+    padding: 10px; 
+    resize: none; 
+    outline: none; 
+
+}
+.btn-back {
+    background-color: aquamarine;
+    padding: 10px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+.btn-back:hover{
+        opacity: .7;
+
+}
+.btn {
+    background-color: aquamarine;
+    padding: 10px;
+    border: none;
+    font-family: inherit;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.btn:hover{
+    opacity: .7;
+}
+
+
